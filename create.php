@@ -1,6 +1,7 @@
 <?php
 include 'database.php';
 
+
 //$_SERVER is a PHP superglobal variable that holds information about headers, paths, and script locations.
 if ($_SERVER['REQUEST_METHOD'] == 'POST') //RM includes get,post,put,delete
 {
